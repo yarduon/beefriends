@@ -1,0 +1,210 @@
+section.big-section p,
+h2 {
+  width: 37.5rem;
+}
+
+.quote,
+.sign {
+  width: 62.5rem;
+}
+
+.opacity-container {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.big-section {
+  height: 55vh;
+}
+
+.dark-purple-background {
+  background-color: #572345;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px black;
+}
+
+.text-height {
+  line-height: 1.69rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.subtitles {
+  font-size: 1rem;
+}
+
+.sriracha {
+  font-family: "sriracha";
+}
+
+.white-text {
+  color: white;
+}
+
+.black-text {
+  color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.border-purple {
+  border: 8px solid #572345;
+}
+
+.border-curves {
+  border-top-left-radius: 3.75rem;
+  border-bottom-right-radius: 3.75rem;
+}
+
+.round-corners {
+  border-radius: 0.44rem;
+}
+
+.max-width {
+  width: 100%;
+}
+
+.max-height {
+  height: 100%;
+}
+
+.touch {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Laila", sans-serif;
+}
+
+.header {
+  height: 5.94rem;
+  border-bottom: 0.63rem solid #572345;
+}
+
+.header h1 {
+  margin: 1rem 0 0.2rem 0.3rem;
+  font-size: 1.8rem;
+}
+
+.header img {
+  width: 3rem;
+}
+
+ul {
+  margin-top: 0.8rem;
+  padding: 0.31rem 0.13rem 0.31rem 0.13rem;
+  width: 21.9rem;
+  border-radius: 1rem;
+  font-size: 0.95rem;
+}
+
+ul a:hover {
+  color: purple;
+}
+
+button:hover {
+  background-color: purple;
+}
+
+.main {
+  min-height: calc(100vh - (80px + 50px));
+  padding-top: 5rem;
+}
+
+.big-section {
+  gap: 2.25rem;
+  background: url("../img/hive.webp") no-repeat center/cover;
+}
+
+section.big-section article:first-child {
+  width: 28.5rem;
+}
+
+section.big-section p {
+  margin-top: 0.44rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+.img-big {
+  width: 25rem;
+  height: auto;
+}
+
+.img-medium {
+  width: 12rem;
+  height: 8.44rem;
+}
+
+section.big-section button {
+  border: none;
+  padding: 0.31rem 1.57rem 0.5rem 1.57rem;
+  margin-top: 0.94rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+  width: 50rem;
+  padding: 0.63rem 0.63rem 0.63rem 0.63rem;
+}
+
+.gallery {
+  padding: 0 0 1.88rem 0;
+  gap: 2.19rem;
+}
+
+.title-gallery {
+  padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+}
+
+.item-gallery {
+  width: 11.25rem;
+  gap: 0.5rem;
+  margin: 0 1.88rem 0 1.88rem;
+}
+
+.container-quote {
+  background: url("../img/sunflowers.webp") no-repeat 0 80% / cover;
+  height: 30vh;
+}
+
+.quote p:not(p.author) {
+  font-size: 1.3rem;
+  margin-bottom: 0.94rem;
+}
+
+.signup {
+  height: 18.75rem;
+}
+
+.sign {
+  padding: 2.5rem 6.25rem 2.5rem 6.25rem;
+}
+
+.sign button {
+  border: 2px solid white;
+  padding: 0.31rem 2.5rem 0.44rem 2.5rem;
+}
+
+footer {
+  height: 10rem;
+}

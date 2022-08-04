@@ -1,0 +1,11 @@
+@font-face {
+  font-family: Sriracha;
+  src: url("../fonts/sriracha.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Laila;
+  src: url("../fonts/laila.ttf");
+  font-display: swap;
+}

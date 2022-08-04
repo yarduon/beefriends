@@ -1,0 +1,69 @@
+@media screen and (max-width: 1100px) {
+  section.big-section {
+    flex-direction: column-reverse;
+  }
+
+  .item-gallery {
+    margin: 1.25rem 1.9rem 1.25rem 1.9rem;
+  }
+
+  #about-us,
+  #about-us .opacity-container {
+    height: 41.25rem;
+  }
+
+  .container-quote,
+  section.container-quote div.opacity-container {
+    height: 18.75rem;
+  }
+
+  .quote {
+    width: 90%;
+    text-align: justify;
+  }
+
+  .quote p:not(p.author) {
+    font-size: 1.1rem;
+  }
+
+  section.signup article {
+    flex-direction: column;
+    gap: 1.9rem;
+  }
+
+  .sign {
+    width: 80%;
+    padding: 2.5rem;
+  }
+
+  article.sign h4,
+  article.sign p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header h1 {
+    margin: 1rem 0 0.19rem 0.06rem;
+    font-size: 1.3rem;
+  }
+
+  ul {
+    width: 11.25rem;
+    padding-top: 0.31rem;
+    font-size: 0.65rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    width: 100%;
+  }
+
+  section.big-section p {
+    width: 19.38rem;
+  }
+
+  .img-big {
+    width: 18.75rem;
+  }
+}

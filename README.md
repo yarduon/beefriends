@@ -1,4 +1,4 @@
-<strong>This landing page has been created using only HTML and CSS</strong>, in order to practice both technologies.
+<strong>This landing page has been created using only HTML and CSS</strong>, in order to practice both technologies. All the images <em>(except logo)</em> used are created by <a href="https://openai.com/dall-e-2/">DALL-E 2</a>.
 
 Beefriends is a simple website to help bees to find other bees to build a wonderful hive. 
 
@@ -6,7 +6,7 @@ As you can obviously suppose bees aren't able to build websites, but what if we 
 
 Anyway, we should be careful... We don't want them to bee-ing ruling the world... Because bees can't read, right?
 
-How awesome are you to bee part? 🐝 Bzzz...
+How awesome are you to bee part? Bzzz...
 
 <strong>Instructions:</strong> Maybe you are on a lazy day, or you are lost in this weird website because you don't know how to use it, don't worry, I understand.
 There are two ways to see my work:
@@ -14,7 +14,7 @@ There are two ways to see my work:
     <li>
         <em>I want to see it right now:</em>
         <ol>
-            <li>Just click on this link: https://j-alarcon.github.io/beefriends/</li>
+            <li>Just click on this link: <a href="https://j-alarcon.github.io/beefriends/">Beefriends</a></li>
             <li>Or you can find the link in the environments category on your right by clicking view deployment inside this one <strong>(You need a Github's account)</strong>.</li>
         </ol>
     </li>

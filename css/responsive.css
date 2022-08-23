@@ -53,10 +53,6 @@
     font-size: 1.3rem;
   }
 
-  .img-big {
-    width: 19rem;
-  }
-
   .nav {
     display: none;
   }
@@ -66,8 +62,38 @@
     width: 100%;
   }
 
+  .big-section {
+    background: white;
+  }
+
+  #about-us,
+  #about-us .opacity-container {
+    height: 40rem;
+  }
+
+  #about-us .opacity-container {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .img-big {
+    width: 19rem;
+  }
+
+  section.big-section h2 {
+    width: 19rem;
+    text-align: center;
+    border-radius: 0.44rem;
+    background-color: #572345;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  section.big-section p {
+    color: black;
+    text-shadow: none;
+  }
+
   section.big-section p {
     width: 80vw;
   }
-
 }

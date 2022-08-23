@@ -53,6 +53,10 @@
     font-size: 1.3rem;
   }
 
+  .img-big {
+    width: 19rem;
+  }
+
   .nav {
     display: none;
   }

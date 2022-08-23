@@ -4,13 +4,17 @@
     flex-direction: column-reverse;
   }
 
-  .item-gallery {
-    margin: 1.25rem 1.9rem 1.25rem 1.9rem;
-  }
-
   #about-us,
   #about-us .opacity-container {
-    height: 41.25rem;
+    height: 44rem;
+  }
+
+  .img-big {
+    width: 22rem;
+  }
+
+  .item-gallery {
+    margin: 1.25rem 1.9rem 1.25rem 1.9rem;
   }
 
   .container-quote,
@@ -39,20 +43,18 @@
 
   article.sign h4,
   article.sign p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 760px) {
   .header h1 {
     margin: 1rem 0 0.19rem 0.06rem;
     font-size: 1.3rem;
   }
 
-  ul {
-    width: 11.25rem;
-    padding-top: 0.31rem;
-    font-size: 0.65rem;
+  .nav {
+    display: none;
   }
 
   h2 {
@@ -61,7 +63,7 @@
   }
 
   section.big-section p {
-    width: 19.38rem;
+    width: 80vw;
   }
 
   .img-big {

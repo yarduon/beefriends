@@ -14,7 +14,7 @@ h2 {
 }
 
 .big-section {
-  height: 55vh;
+  height: 34rem;
 }
 
 .dark-purple-background {
@@ -125,7 +125,6 @@ button:hover {
 }
 
 .main {
-  min-height: calc(100vh - (80px + 50px));
   padding-top: 5rem;
 }
 
@@ -185,7 +184,7 @@ h3 {
 
 .container-quote {
   background: url("../img/rainbow.webp") no-repeat 0 0 / cover;
-  height: 30vh;
+  height: 18rem;
 }
 
 .quote p:not(p.author) {

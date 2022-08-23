@@ -10,7 +10,7 @@ h2 {
 }
 
 .opacity-container {
-  background-color: rgba(0, 0, 0, .75);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .big-section {
@@ -117,11 +117,11 @@ ul {
 }
 
 ul a:hover {
-  color: purple;
+  color: rgb(133, 40, 133);
 }
 
 button:hover {
-  background-color: purple;
+  background-color: rgb(133, 40, 133);
 }
 
 .main {

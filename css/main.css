@@ -120,6 +120,12 @@ ul a:hover {
   color: rgb(133, 40, 133);
 }
 
+.burger{
+  display: none;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
 button:hover {
   background-color: rgb(133, 40, 133);
 }
@@ -153,6 +159,11 @@ h2 {
 .img-medium {
   width: 16rem;
   height: auto;
+}
+
+.img-small{
+  width: 2rem;
+  height: 2rem;
 }
 
 section.big-section button {

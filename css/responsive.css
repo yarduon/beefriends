@@ -62,6 +62,10 @@
     width: 100%;
   }
 
+  .burger {
+    display: flex;
+  }
+
   #about-us,
   #about-us .opacity-container {
     height: 40rem;

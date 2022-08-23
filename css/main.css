@@ -130,7 +130,7 @@ button:hover {
 
 .big-section {
   gap: 2.25rem;
-  background: url("../img/hive.webp") no-repeat center/cover;
+  background: url("./../img/pictures/hive.webp") no-repeat center/cover;
 }
 
 section.big-section article:first-child {
@@ -183,7 +183,7 @@ h3 {
 }
 
 .container-quote {
-  background: url("../img/rainbow.webp") no-repeat 0 0 / cover;
+  background: url("./../img/pictures/rainbow.webp") no-repeat 0 0 / cover;
   height: 18rem;
 }
 

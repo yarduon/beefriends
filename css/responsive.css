@@ -58,7 +58,8 @@
   }
 
   .nav,
-  .img-big {
+  .img-big,
+  #about-us .opacity-container {
     display: none;
   }
 
@@ -68,12 +69,11 @@
   }
 
   .big-section {
-    background: url("./../img/pictures/hive_small.webp") no-repeat center/cover;
+    background: white;
   }
 
-  #about-us,
-  #about-us .opacity-container {
-    height: 24rem;
+  #about-us {
+    height: 23rem;
   }
 
   #sign {
@@ -81,11 +81,16 @@
   }
 
   h2 {
+    background-color: #572345;
+    border-radius: 0.44rem;
     font-size: 1.4rem;
-    width: 100%;
+    padding: 1rem 1rem 1rem 1rem;
+    width: 20rem;
   }
 
   section.big-section p {
     width: 80vw;
+    color: black;
+    text-shadow: none;
   }
 }

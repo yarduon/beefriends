@@ -17,6 +17,10 @@ h2 {
   height: 34rem;
 }
 
+.test{
+  padding: 1rem 1rem 1rem 1rem;
+}
+
 .dark-purple-background {
   background-color: #572345;
 }
@@ -76,6 +80,10 @@ h2 {
 
 .round-corners {
   border-radius: 0.44rem;
+}
+
+.fake-border{
+  padding: .6rem .6rem .6rem .6rem;
 }
 
 .max-width {
@@ -148,11 +156,6 @@ section.big-section p {
 
 h2 {
   font-size: 2.2rem;
-}
-
-.img-small {
-  width: 1.8rem;
-  height: 1.8rem;
 }
 
 section.big-section button {

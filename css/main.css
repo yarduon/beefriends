@@ -196,6 +196,10 @@ h3 {
   height: 18.75rem;
 }
 
+.signup h4 {
+  font-size: 1.1rem;
+}
+
 .sign {
   padding: 2.5rem 6.25rem 2.5rem 6.25rem;
 }

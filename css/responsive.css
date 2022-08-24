@@ -1,5 +1,5 @@
 /* https://github.com/j-alarcon */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1150px) {
   section.big-section {
     flex-direction: column-reverse;
   }
@@ -92,5 +92,9 @@
     width: 80vw;
     color: black;
     text-shadow: none;
+  }
+
+  footer {
+    height: 6rem;
   }
 }

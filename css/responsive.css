@@ -61,7 +61,7 @@
     margin-left: 1rem;
   }
 
-  .nav {
+  .nav, .img-big {
     display: none;
   }
 
@@ -72,12 +72,11 @@
 
   #about-us,
   #about-us .opacity-container {
-    height: 42rem;
+    height: 24rem;
   }
 
-  .img-big {
-    width: 18rem;
-    margin-top: 0.5rem;
+  #sign-up{
+    margin-bottom: 1.7rem;
   }
 
   h2 {

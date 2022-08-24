@@ -68,11 +68,12 @@
 
   #about-us,
   #about-us .opacity-container {
-    height: 40rem;
+    height: 42rem;
   }
 
   .img-big {
-    width: 19rem;
+    width: 18rem;
+    margin-top: .5rem;
   }
 
   section.big-section p {

@@ -31,5 +31,4 @@ There are two ways to see my work:
         </ol>
     </li>
 </ul>
-<strong>License:</strong> You are not allowed to modify, use my code or resources for your own projects without my consent, even if it's everything is public.
-If you do not follow the preceding, I might take legal actions against you.
+<strong>License:</strong> You are not allowed to modify, use my code or resources for your own projects without my consent, even if it's everything is public. If you do not follow the preceding, I might take legal actions against you.

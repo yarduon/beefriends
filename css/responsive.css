@@ -9,10 +9,6 @@
     height: 44rem;
   }
 
-  .img-big {
-    width: 22rem;
-  }
-
   .item-gallery {
     margin: 1.25rem 1.9rem 1.25rem 1.9rem;
   }
@@ -61,7 +57,8 @@
     margin-left: 1rem;
   }
 
-  .nav, .img-big {
+  .nav,
+  .img-big {
     display: none;
   }
 
@@ -75,7 +72,7 @@
     height: 24rem;
   }
 
-  #sign{
+  #sign {
     margin-bottom: 1.7rem;
   }
 

@@ -10,7 +10,7 @@ h2 {
 }
 
 .opacity-container {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .big-section {
@@ -135,7 +135,7 @@ button:hover {
 
 .big-section {
   gap: 2.25rem;
-  background: url("./../img/pictures/hive.webp") no-repeat center/cover;
+  background: url("./../img/pictures/hive_large.webp") no-repeat center/cover;
 }
 
 section.big-section article:first-child {

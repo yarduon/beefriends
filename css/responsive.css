@@ -67,6 +67,10 @@
     margin-right: 1rem;
   }
 
+  .big-section {
+    background: url("./../img/pictures/hive_small.webp") no-repeat center/cover;
+  }
+
   #about-us,
   #about-us .opacity-container {
     height: 24rem;

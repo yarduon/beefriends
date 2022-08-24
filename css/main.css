@@ -120,10 +120,10 @@ ul a:hover {
   color: rgb(133, 40, 133);
 }
 
-.burger{
+.burger {
   display: none;
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 3.2rem;
+  height: 3.2rem;
 }
 
 button:hover {
@@ -161,9 +161,9 @@ h2 {
   height: auto;
 }
 
-.img-small{
-  width: 2rem;
-  height: 2rem;
+.img-small {
+  width: 1.8rem;
+  height: 1.8rem;
 }
 
 section.big-section button {

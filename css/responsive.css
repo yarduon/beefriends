@@ -48,22 +48,26 @@
 }
 
 @media screen and (max-width: 760px) {
+  .header {
+    justify-content: space-between;
+  }
+
   .header h1 {
     margin: 1rem 0 0.19rem 0.06rem;
     font-size: 1.3rem;
+  }
+
+  .logo {
+    margin-left: 1rem;
   }
 
   .nav {
     display: none;
   }
 
-  h2 {
-    font-size: 1.4rem;
-    width: 100%;
-  }
-
   .burger {
     display: flex;
+    margin-right: 1rem;
   }
 
   #about-us,
@@ -73,7 +77,12 @@
 
   .img-big {
     width: 18rem;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    width: 100%;
   }
 
   section.big-section p {

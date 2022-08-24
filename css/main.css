@@ -100,7 +100,7 @@ body {
 }
 
 .header h1 {
-  margin: 1rem 0 0.2rem 0.3rem;
+  margin: 0 0 0 .4rem;
   font-size: 1.8rem;
 }
 
@@ -179,7 +179,7 @@ h3 {
 .item-gallery {
   width: 15rem;
   gap: 0.5rem;
-  margin: 0 1.88rem 0 1.88rem;
+  margin: 0 2.2rem 0 2.2rem;
 }
 
 .container-quote {

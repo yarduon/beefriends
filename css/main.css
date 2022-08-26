@@ -17,12 +17,12 @@ h2 {
   height: 34rem;
 }
 
-.test{
-  padding: 1rem 1rem 1rem 1rem;
-}
-
 .dark-purple-background {
   background-color: #572345;
+}
+
+.orange-background {
+  background-color: #f0a85dff;
 }
 
 .white-background {
@@ -82,8 +82,8 @@ h2 {
   border-radius: 0.44rem;
 }
 
-.fake-border{
-  padding: .6rem .6rem .6rem .6rem;
+.fake-border {
+  padding: 0.6rem 0.6rem 0.6rem 0.6rem;
 }
 
 .max-width {
@@ -157,7 +157,7 @@ section.big-section p {
 h2 {
   font-size: 2.2rem;
 }
-
+ 
 section.big-section button {
   border: none;
   padding: 0.31rem 1.57rem 0.5rem 1.57rem;
@@ -214,4 +214,13 @@ h3 {
 
 footer {
   height: 10rem;
+}
+
+.logo-container{
+  width: 5.5rem;
+  border-left: .5rem solid #292929;
+}
+
+.logo-container:hover{
+  opacity: .9;
 }

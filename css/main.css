@@ -145,8 +145,12 @@ ul a:hover {
   z-index: 1;
 }
 
-#burger:checked + .burger-opacity {
+#burger:checked ~ div .burger-opacity {
   display: block;
+}
+
+#burger:checked + header .burger img{
+  transform: rotate(270deg);
 }
 
 button:hover {

@@ -15,7 +15,7 @@
   justify-content: space-around;
 }
 
-.justify-end{
+.justify-end {
   justify-content: flex-end;
 }
 
@@ -23,7 +23,7 @@
   align-items: center;
 }
 
-.align-end{
+.align-end {
   align-items: flex-end;
 }
 
@@ -35,17 +35,19 @@
   flex-wrap: wrap;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
 .header {
   position: fixed;
   z-index: 2;
 }
 
-.opacity-container {
-  position: absolute;
+.z-index-0 {
   z-index: 0;
-}
-
-.relative {
-  position: relative;
-  z-index: 1;
 }

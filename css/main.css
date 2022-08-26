@@ -13,8 +13,8 @@ h2 {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
-.big-section {
-  height: 34rem;
+.opacity-about{
+  height: 31rem;
 }
 
 .dark-purple-background {
@@ -94,6 +94,14 @@ h2 {
   height: 100%;
 }
 
+.hidden{
+  display: none;
+}
+
+.invisible{
+  opacity: 0;
+}
+
 .touch {
   cursor: pointer;
 }
@@ -128,20 +136,26 @@ ul a:hover {
 }
 
 .burger {
-  display: none;
   width: 3.2rem;
   height: 3.2rem;
+}
+
+.burger-opacity{
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+#burger:checked + .burger-opacity {
+  display: block;
 }
 
 button:hover {
   background-color: rgb(133, 40, 133);
 }
 
-.main {
-  padding-top: 5rem;
-}
-
 .big-section {
+  padding-top: 5rem;
+  height: 36rem;
   gap: 2.25rem;
   background: url("./../img/backgrounds/hive.webp") no-repeat center/cover;
 }
@@ -222,5 +236,5 @@ footer {
 }
 
 .logo-container:hover{
-  opacity: .9;
+  opacity: .7;
 }

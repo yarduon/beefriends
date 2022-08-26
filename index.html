@@ -28,8 +28,9 @@
           <h1 class="sriracha black-text">Beefriends</h1>
         </div>
       </a>
-      <button
-        class="burger flex justify-center align-center dark-purple-background round-corners touch"
+      <label
+        class="burger hidden flex justify-center align-center dark-purple-background round-corners touch"
+        for="burger"
       >
         <img
           src="./img/icons/burger.svg"
@@ -37,7 +38,7 @@
           width="48px"
           height="28.8px"
         />
-      </button>
+      </label>
       <nav class="nav flex align-center">
         <ul class="flex justify-space-around border-purple">
           <li>
@@ -52,181 +53,195 @@
         </ul>
       </nav>
     </header>
-    <main class="main flex column">
-      <section
-        class="darkblue big-section flex align-center justify-center relative"
-        id="about-us"
-      >
-        <div class="opacity-container max-width max-height"></div>
-        <article class="white-text relative">
-          <h2 class="text-shadow">Are you looking for a hive?</h2>
-          <p class="subtitles text-height text-shadow text-justify">
-            In Beefriends we believe every bee is important for our group. No
-            matter how big or little you are, we are looking for you. Would you
-            like to spend the rest of your eight weeks of life with us? Then,
-            what are you waiting for? Let us enslave you!
-          </p>
-          <button
-            class="dark-purple-background white-text text-shadow round-corners bold touch"
-            id="sign"
+    <div class="relative">
+      <main class="main flex column">
+        <input class="absolute invisible" type="checkbox" id="burger" />
+        <div class="max-width hidden max-height burger-opacity absolute"></div>
+        <section
+          class="big-section flex align-center justify-center relative"
+          id="about-us"
+        >
+          <div
+            class="opacity-container opacity-about z-index-0 absolute max-width "
+          ></div>
+            <article class="white-text relative">
+              <h2 class="text-shadow">Are you looking for a hive?</h2>
+              <p class="subtitles text-height text-shadow text-justify">
+                In Beefriends we believe every bee is important for our group.
+                No matter how big or little you are, we are looking for you.
+                Would you like to spend the rest of your eight weeks of life
+                with us? Then, what are you waiting for? Let us enslave you!
+              </p>
+              <button
+                class="dark-purple-background white-text text-shadow round-corners bold touch"
+                id="sign"
+              >
+                Sign up
+              </button>
+            </article>
+            <article class="relative">
+              <img
+                class="img-big border-purple border-curves"
+                alt="Bees working in a hive"
+                src="./img/pictures/large/workers_large.webp"
+                width="400px"
+                height="303px"
+              />
+            </article>
+        </section>
+        <section
+          class="flex column align-center justify-center gallery text-center max-width"
+          id="team"
+        >
+          <h3
+            class="flex justify-center white-text text-shadow dark-purple-background max-width"
           >
-            Sign up
-          </button>
-        </article>
-        <article class="relative">
-          <img
-            class="img-big border-purple border-curves"
-            alt="Bees working in a hive"
-            src="./img/pictures/large/workers_large.webp"
-            width="400px"
-            height="303px"
-          />
-        </article>
-      </section>
-      <section
-        class="flex column align-center justify-center gallery text-center max-width"
-        id="team"
-      >
-        <h3
-          class="flex justify-center white-text text-shadow dark-purple-background max-width"
+            Our team
+          </h3>
+          <article class="flex justify-center wrap">
+            <div class="item-gallery flex column align-center">
+              <h4
+                class="title-gallery dark-purple-background white-text text-shadow round-corners"
+              >
+                Matthew
+              </h4>
+              <img
+                class="fake-border dark-purple-background"
+                srcset="
+                  ./img/pictures/large/matthew_large.webp 256w,
+                  ./img/pictures/small/matthew_small.webp 200w
+                "
+                sizes="(max-width: 760px) 200px, 256px"
+                alt="One bee working hard at the gym"
+                src="./img/pictures/large/matthew_large.webp"
+              />
+              <p class="subtitles text-height italic">
+                This little fella is working hard. He should bee promoted soon.
+              </p>
+            </div>
+            <div class="item-gallery flex column align-center">
+              <h4
+                class="title-gallery dark-purple-background white-text text-shadow round-corners"
+              >
+                Queen Sloth
+              </h4>
+              <img
+                class="fake-border dark-purple-background"
+                srcset="
+                  ./img/pictures/large/queen_sloth_large.webp 256w,
+                  ./img/pictures/small/queen_sloth_small.webp 200w
+                "
+                sizes="(max-width: 760px) 200px, 256px"
+                alt="Queen bee eating popcorn on a sofa"
+                src="./img/pictures/large/queen_sloth_large.webp"
+              />
+              <p class="subtitles text-height italic">
+                Just look at her! She is not doing anything like a real queen.
+              </p>
+            </div>
+            <div class="item-gallery flex column align-center">
+              <h4
+                class="title-gallery dark-purple-background white-text text-shadow round-corners"
+              >
+                Max and Lou
+              </h4>
+              <img
+                class="fake-border dark-purple-background"
+                srcset="
+                  ./img/pictures/large/max_and_lou_large.webp 256w,
+                  ./img/pictures/small/max_and_lou_small.webp 200w
+                "
+                sizes="(max-width: 760px) 200px, 256px"
+                alt="Two astronauts bees into space"
+                src="./img/pictures/large/max_and_lou_large.webp"
+              />
+              <p class="subtitles text-height italic">
+                Super-duper duo. They're still trying to get galactic pollen.
+              </p>
+            </div>
+            <div class="item-gallery flex column align-center">
+              <h4
+                class="title-gallery dark-purple-background white-text text-shadow round-corners"
+              >
+                Also this guy
+              </h4>
+              <img
+                class="fake-border dark-purple-background"
+                srcset="
+                  ./img/pictures/large/weird_guy_large.webp 256w,
+                  ./img/pictures/small/weird_guy_small.webp 200w
+                "
+                sizes="(max-width: 760px) 200px, 256px"
+                alt="Two astronauts bees into space"
+                src="./img/pictures/large/weird_guy_large.webp"
+              />
+              <p class="subtitles text-height italic">
+                Yeah! This one... He is... I don't even know who he is. Why is
+                here? Just look at him!
+              </p>
+            </div>
+          </article>
+        </section>
+        <section
+          class="flex justify-center align-center container-quote relative max-height"
         >
-          Our team
-        </h3>
-        <article class="flex justify-center wrap">
-          <div class="item-gallery flex column align-center">
-            <h4
-              class="title-gallery dark-purple-background white-text text-shadow round-corners"
-            >
-              Matthew
-            </h4>
-            <img
-              class="fake-border dark-purple-background"
-              srcset="
-                ./img/pictures/large/matthew_large.webp 256w,
-                ./img/pictures/small/matthew_small.webp 200w
-              "
-              sizes="(max-width: 760px) 200px, 256px"
-              alt="One bee working hard at the gym"
-              src="./img/pictures/large/matthew_large.webp"
-            />
-            <p class="subtitles text-height italic">
-              This little fella is working hard. He should bee promoted soon.
+          <div
+            class="opacity-container absolute max-width max-height z-index-0"
+          ></div>
+          <article class="flex column quote relative">
+            <p class="white-text italic text-hight text-shadow">
+              One day, one bee say to the other: Doesn't matter if you are the
+              strongest or the clevest guy of your hive. What really matter if
+              you are cute enough to get some wine. Yeah, you don't need wine,
+              but I wanted a rhyme.
             </p>
-          </div>
-          <div class="item-gallery flex column align-center">
-            <h4
-              class="title-gallery dark-purple-background white-text text-shadow round-corners"
-            >
-              Queen Sloth
-            </h4>
-            <img
-              class="fake-border dark-purple-background"
-              srcset="
-                ./img/pictures/large/queen_sloth_large.webp 256w,
-                ./img/pictures/small/queen_sloth_small.webp 200w
-              "
-              sizes="(max-width: 760px) 200px, 256px"
-              alt="Queen bee eating popcorn on a sofa"
-              src="./img/pictures/large/queen_sloth_large.webp"
-            />
-            <p class="subtitles text-height italic">
-              Just look at her! She is not doing anything like a real queen.
+            <p class="author self-flex-end white-text bold text-shadow">
+              -Some bee
             </p>
-          </div>
-          <div class="item-gallery flex column align-center">
-            <h4
-              class="title-gallery dark-purple-background white-text text-shadow round-corners"
-            >
-              Max and Lou
-            </h4>
-            <img
-              class="fake-border dark-purple-background"
-              srcset="
-                ./img/pictures/large/max_and_lou_large.webp 256w,
-                ./img/pictures/small/max_and_lou_small.webp 200w
-              "
-              sizes="(max-width: 760px) 200px, 256px"
-              alt="Two astronauts bees into space"
-              src="./img/pictures/large/max_and_lou_large.webp"
-            />
-            <p class="subtitles text-height italic">
-              Super-duper duo. They're still trying to get galactic pollen.
-            </p>
-          </div>
-          <div class="item-gallery flex column align-center">
-            <h4
-              class="title-gallery dark-purple-background white-text text-shadow round-corners"
-            >
-              Also this guy
-            </h4>
-            <img
-              class="fake-border dark-purple-background"
-              srcset="
-                ./img/pictures/large/weird_guy_large.webp 256w,
-                ./img/pictures/small/weird_guy_small.webp 200w
-              "
-              sizes="(max-width: 760px) 200px, 256px"
-              alt="Two astronauts bees into space"
-              src="./img/pictures/large/weird_guy_large.webp"
-            />
-            <p class="subtitles text-height italic">
-              Yeah! This one... He is... I don't even know who he is. Why is
-              here? Just look at him!
-            </p>
-          </div>
-        </article>
-      </section>
-      <section
-        class="flex justify-center align-center container-quote relative max-height"
+          </article>
+        </section>
+        <section class="signup flex justify-center align-center">
+          <article
+            class="flex align-center justify-space-around dark-purple-background white-text sign round-corners"
+          >
+            <div>
+              <h4 class="bold text-shadow">Are you still here?</h4>
+              <p class="subtitles text-shadow">
+                Stop wasting your eight weeks of life on internet and just join
+                our hive.
+              </p>
+            </div>
+            <div>
+              <button
+                class="dark-purple-background white-text text-shadow bold round-corners touch"
+                id="sign-up"
+              >
+                Sign up
+              </button>
+            </div>
+          </article>
+        </section>
+      </main>
+
+      <footer
+        class="dark-purple-background white-text flex align-end justify-end"
       >
-        <div class="opacity-container max-width max-height"></div>
-        <article class="flex column quote relative">
-          <p class="white-text italic text-hight text-shadow">
-            One day, one bee say to the other: Doesn't matter if you are the
-            strongest or the clevest guy of your hive. What really matter if you
-            are cute enough to get some wine. Yeah, you don't need wine, but I
-            wanted a rhyme.
-          </p>
-          <p class="author self-flex-end white-text bold text-shadow">
-            -Some bee
-          </p>
-        </article>
-      </section>
-      <section class="signup flex justify-center align-center">
-        <article
-          class="flex align-center justify-space-around dark-purple-background white-text sign round-corners"
+        <div
+          class="flex justify-center max-height orange-background logo-container"
         >
-          <div>
-            <h4 class="bold text-shadow">Are you still here?</h4>
-            <p class="subtitles text-shadow">
-              Stop wasting your eight weeks of life on internet and just join
-              our hive.
-            </p>
-          </div>
-          <div>
-            <button
-              class="dark-purple-background white-text text-shadow bold round-corners touch"
-              id="sign-up"
-            >
-              Sign up
-            </button>
-          </div>
-        </article>
-      </section>
-    </main>
-    <footer
-      class="dark-purple-background white-text flex align-end justify-end"
-    >
-      <div class="flex justify-center max-height orange-background logo-container">
-        <a class="flex justify-center align-center" href="https://github.com/j-alarcon">
-          <img
-            src="./img/logos/penguin.png"
-            width="70px"
-            height="70px"
-            alt="Penguin in a suit"
-          />
-        </a>
-      </div>
-    </footer>
+          <a
+            class="flex justify-center align-center"
+            href="https://github.com/j-alarcon"
+          >
+            <img
+              src="./img/logos/penguin.png"
+              width="70px"
+              height="70px"
+              alt="Penguin in a suit"
+            />
+          </a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

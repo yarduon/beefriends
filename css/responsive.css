@@ -4,9 +4,12 @@
     flex-direction: column-reverse;
   }
 
-  #about-us,
+  #about-us{
+    height: 48rem;
+  }
+
   #about-us .opacity-container {
-    height: 44rem;
+    height: 43rem;
   }
 
   .item-gallery {
@@ -73,7 +76,7 @@
   }
 
   #about-us {
-    height: 23rem;
+    height: 30rem;
   }
 
   #sign {

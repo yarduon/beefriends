@@ -166,4 +166,12 @@
     width: 60px;
     height: 60px;
   }
+
+  .p-m a:hover {
+    color: #ffcf00;
+  }
+
+  .footer-right:hover {
+    background-color: rgb(10, 10, 10);
+  }
 }

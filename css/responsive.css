@@ -64,6 +64,11 @@
     display: flex;
   }
 
+  #burger:checked ~ div .burger-opacity,
+  .p-m {
+    display: block;
+  }
+
   .hidden-r {
     display: none;
   }
@@ -105,10 +110,6 @@
 
   #burger:checked + header .burger img {
     transform: rotate(270deg);
-  }
-
-  #burger:checked ~ div .burger-opacity {
-    display: block;
   }
 
   .nav {
@@ -155,5 +156,14 @@
     width: 80vw;
     color: black;
     text-shadow: none;
+  }
+
+  footer {
+    height: 7rem;
+  }
+
+  .penguin{
+    width: 60px;
+    height: 60px;
   }
 }

@@ -38,7 +38,11 @@ h2 {
 }
 
 .text-height {
-  line-height: 1.69rem;
+  line-height: 2rem;
+}
+
+.padding-text{
+  padding: 0 1.5rem 0 1.5rem;
 }
 
 .bold {
@@ -219,10 +223,6 @@ h3 {
 footer {
   height: 10rem;
   background: url("./../img/backgrounds/jungle.png") no-repeat 0 0 / cover;
-}
-
-.footer-left{
-  width: 100%;
 }
 
 .footer-right {

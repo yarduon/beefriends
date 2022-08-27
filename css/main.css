@@ -21,16 +21,12 @@ h2 {
   background-color: #572345;
 }
 
-.orange-background {
-  background-color: #f0a85dff;
-}
-
 .white-background {
   background-color: white;
 }
 
 .black-background {
-  background-color: #030002;
+  background-color: rgb(27, 27, 27);
 }
 
 .yellow-background {
@@ -227,7 +223,7 @@ footer {
 
 .logo-container {
   width: 5.5rem;
-  border-left: 0.5rem solid #292929;
+  border-left: 0.5rem solid #f0a85dff;
 }
 
 .logo-container:hover {

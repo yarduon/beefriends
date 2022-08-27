@@ -69,6 +69,11 @@
     display: block;
   }
 
+  .nav li:hover,
+  h2 {
+    background-color: #572345;
+  }
+
   .hidden-r {
     display: none;
   }
@@ -127,10 +132,6 @@
     border-bottom: 0.3rem solid #572345;
   }
 
-  .nav li:hover {
-    background-color: #572345;
-  }
-
   .nav li:hover a {
     color: white;
   }
@@ -148,10 +149,9 @@
   }
 
   h2 {
-    background-color: #572345;
     border-radius: 0.44rem;
     font-size: 1.4rem;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem;
     width: 20rem;
   }
 
@@ -163,5 +163,58 @@
 
   footer {
     height: 7rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #about-us article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about-us h2 {
+    width: 80%;
+  }
+
+  .footer-right {
+    display: none;
+  }
+
+  .signup {
+    height: auto;
+    margin: 7% 0 7% 0;
+  }
+
+  #about-us,
+  .container-quote,
+  .sign, .footer-left {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .header h1,
+  .burger,
+  .flex-r,
+  #about-us h2 {
+    display: none;
+  }
+
+  .item-gallery img {
+    display: none;
+  }
+
+  .item-gallery {
+    width: 100%;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  .logo {
+    margin: 0;
   }
 }

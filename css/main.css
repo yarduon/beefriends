@@ -221,8 +221,12 @@ footer {
   background: url("./../img/backgrounds/jungle.png") no-repeat 0 0 / cover;
 }
 
-.logo-container {
-  width: 6.5rem;
+.footer-left{
+  width: 100%;
+}
+
+.footer-right {
+  width: 7rem;
   border-left: 0.5rem solid #f0a85dff;
 }
 

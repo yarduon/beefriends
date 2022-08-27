@@ -27,6 +27,10 @@
   align-items: flex-end;
 }
 
+.self-justify-end {
+  justify-self: flex-end;
+}
+
 .self-flex-end {
   align-self: flex-end;
 }
@@ -47,12 +51,16 @@
   position: fixed;
 }
 
-.burger-opacity {
-  z-index: 1;
+.logo-container{
+  right: 0;
 }
 
 .header {
   z-index: 2;
+}
+
+.burger-opacity {
+  z-index: 1;
 }
 
 .z-index-0 {

@@ -43,8 +43,15 @@
   position: relative;
 }
 
-.header {
+.fixed {
   position: fixed;
+}
+
+.burger-opacity {
+  z-index: 1;
+}
+
+.header {
   z-index: 2;
 }
 

@@ -13,7 +13,7 @@ h2 {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
-.opacity-about{
+.opacity-about {
   height: 31rem;
 }
 
@@ -27,6 +27,14 @@ h2 {
 
 .white-background {
   background-color: white;
+}
+
+.black-background {
+  background-color: #030002;
+}
+
+.yellow-background {
+  background-color: #ffcf00;
 }
 
 .text-shadow {
@@ -94,11 +102,11 @@ h2 {
   height: 100%;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
-.invisible{
+.invisible {
   opacity: 0;
 }
 
@@ -135,24 +143,6 @@ ul a:hover {
   color: rgb(133, 40, 133);
 }
 
-.burger {
-  width: 3.2rem;
-  height: 3.2rem;
-}
-
-.burger-opacity{
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1;
-}
-
-#burger:checked ~ div .burger-opacity {
-  display: block;
-}
-
-#burger:checked + header .burger img{
-  transform: rotate(270deg);
-}
-
 button:hover {
   background-color: rgb(133, 40, 133);
 }
@@ -175,7 +165,7 @@ section.big-section p {
 h2 {
   font-size: 2.2rem;
 }
- 
+
 section.big-section button {
   border: none;
   padding: 0.31rem 1.57rem 0.5rem 1.57rem;
@@ -234,11 +224,11 @@ footer {
   height: 10rem;
 }
 
-.logo-container{
+.logo-container {
   width: 5.5rem;
-  border-left: .5rem solid #292929;
+  border-left: 0.5rem solid #292929;
 }
 
-.logo-container:hover{
-  opacity: .7;
+.logo-container:hover {
+  opacity: 0.7;
 }

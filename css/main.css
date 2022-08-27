@@ -114,8 +114,8 @@ h2 {
   cursor: pointer;
 }
 
-body {
-  font-family: "Laila", sans-serif;
+.laila {
+  font-family: "Laila";
 }
 
 .header {

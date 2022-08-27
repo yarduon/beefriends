@@ -114,22 +114,25 @@
 
   .nav {
     position: absolute;
-    right: 0;
-    top: 5.95rem;
+    top: 4.6rem;
   }
 
   .nav ul {
     padding: 0;
-    flex-direction: column;
-    width: 10rem;
   }
 
   .nav li {
-    height: 2rem;
+    height: 3.3rem;
+    background-color: white;
+    border-bottom: 0.3rem solid #572345;
   }
 
-  .nav a:hover {
-    background-color: red;
+  .nav li:hover {
+    background-color: #572345;
+  }
+
+  .nav li:hover a {
+    color: white;
   }
 
   .big-section {

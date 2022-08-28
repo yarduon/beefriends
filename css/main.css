@@ -53,6 +53,10 @@ h2 {
   font-style: italic;
 }
 
+.overflow-hidden{
+  overflow: hidden;
+}
+
 .subtitles {
   font-size: 1rem;
 }
@@ -220,7 +224,7 @@ h3 {
   padding: 0.31rem 2.5rem 0.44rem 2.5rem;
 }
 
-footer {
+.footer {
   height: 10rem;
   background: url("./../img/backgrounds/jungle.webp") no-repeat 0 0 / cover;
 }

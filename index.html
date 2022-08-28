@@ -30,11 +30,11 @@
             width="72px"
             height="72px"
           />
-          <h1 class="sriracha black-text">Beefriends</h1>
+          <h1 class="sriracha black-text hidden-z">Beefriends</h1>
         </div>
       </a>
       <label
-        class="burger flex-r hidden flex justify-center align-center dark-purple-background round-corners touch"
+        class="burger flex-r hidden flex justify-center align-center dark-purple-background round-corners touch hidden-z"
         for="burger"
       >
         <img
@@ -46,21 +46,21 @@
       </label>
       <nav class="nav max-width-r flex align-center hidden-r">
         <ul class="flex justify-space-around border-purple max-width-r">
-          <li class="max-width-r flex-r">
+          <li class="max-width-r flex-r hidden-z">
             <a
               class="black-text bold sans-serif max-width-r max-height-r flex-r"
               href="#about-us"
               >Abous us</a
             >
           </li>
-          <li class="max-width-r flex-r">
+          <li class="max-width-r flex-r hidden-z">
             <a
               class="black-text bold sans-serif max-width-r max-height-r flex-r"
               href="#team"
               >Our team</a
             >
           </li>
-          <li class="max-width-r flex-r">
+          <li class="max-width-r flex-r hidden-z">
             <a
               class="black-text bold sans-serif max-width-r max-height-r flex-r"
               href="#sign-up"
@@ -81,7 +81,7 @@
             class="opacity-container hidden-r opacity-about z-index-0 absolute max-width"
           ></div>
           <article class="white-text relative">
-            <h2 class="text-shadow">Are you looking for a hive?</h2>
+            <h2 class="text-shadow hidden-z">Are you looking for a hive?</h2>
             <p class="subtitles text-height text-shadow text-justify">
               In Beefriends we believe every bee is important for our group. No
               matter how big or little you are, we are looking for you. Would
@@ -106,7 +106,7 @@
           </article>
         </section>
         <section
-          class="flex column align-center justify-center gallery text-center max-width"
+          class="flex column align-center justify-center gallery text-center max-width overflow-hidden"
           id="team"
         >
           <h3
@@ -122,7 +122,7 @@
                 Matthew
               </h4>
               <img
-                class="fake-border dark-purple-background"
+                class="fake-border dark-purple-background hidden-z"
                 srcset="
                   ./img/pictures/large/matthew_large.webp 256w,
                   ./img/pictures/small/matthew_small.webp 200w
@@ -131,7 +131,9 @@
                 alt="One bee working hard at the gym"
                 src="./img/pictures/large/matthew_large.webp"
               />
-              <p class="subtitles text-justify text-height italic">
+              <p
+                class="subtitles text-justify text-height italic padding-text-z"
+              >
                 This little fella is working hard. He should bee promoted soon.
               </p>
             </div>
@@ -142,7 +144,7 @@
                 Queen Sloth
               </h4>
               <img
-                class="fake-border dark-purple-background"
+                class="fake-border dark-purple-background hidden-z"
                 srcset="
                   ./img/pictures/large/queen_sloth_large.webp 256w,
                   ./img/pictures/small/queen_sloth_small.webp 200w
@@ -151,7 +153,7 @@
                 alt="Queen bee eating popcorn on a sofa"
                 src="./img/pictures/large/queen_sloth_large.webp"
               />
-              <p class="subtitles text-height italic">
+              <p class="subtitles text-height italic padding-text-z">
                 Just look at her! She is not doing anything like a real queen.
               </p>
             </div>
@@ -162,7 +164,7 @@
                 Max and Lou
               </h4>
               <img
-                class="fake-border dark-purple-background"
+                class="fake-border dark-purple-background hidden-z"
                 srcset="
                   ./img/pictures/large/max_and_lou_large.webp 256w,
                   ./img/pictures/small/max_and_lou_small.webp 200w
@@ -171,7 +173,7 @@
                 alt="Two astronauts bees into space"
                 src="./img/pictures/large/max_and_lou_large.webp"
               />
-              <p class="subtitles text-height italic">
+              <p class="subtitles text-height italic padding-text-z">
                 Super-duper duo. They're still trying to get galactic pollen.
               </p>
             </div>
@@ -182,7 +184,7 @@
                 Also this guy
               </h4>
               <img
-                class="fake-border dark-purple-background"
+                class="fake-border dark-purple-background hidden-z"
                 srcset="
                   ./img/pictures/large/weird_guy_large.webp 256w,
                   ./img/pictures/small/weird_guy_small.webp 200w
@@ -191,7 +193,7 @@
                 alt="Two astronauts bees into space"
                 src="./img/pictures/large/weird_guy_large.webp"
               />
-              <p class="subtitles text-height italic">
+              <p class="subtitles text-height italic padding-text-z">
                 Yeah! This one... He is... I don't even know who he is. Why is
                 here? Just look at him!
               </p>
@@ -204,7 +206,7 @@
           <div
             class="opacity-container absolute max-width max-height z-index-0"
           ></div>
-          <article class="flex column quote relative">
+          <article class="flex column quote relative overflow-hidden">
             <p class="white-text italic text-shadow">
               One day, one bee say to the other: Doesn't matter if you are the
               strongest or the clevest guy of your hive. What really matter if
@@ -229,7 +231,7 @@
             </div>
             <div>
               <button
-                class="dark-purple-background white-text text-shadow bold round-corners touch"
+                class="dark-purple-background white-text text-shadow bold round-corners touch hidden-z"
                 id="sign-up"
               >
                 Sign up
@@ -240,10 +242,10 @@
       </main>
 
       <footer
-        class="dark-purple-background white-text flex justify-center align-center relative"
+        class="footer dark-purple-background white-text flex justify-center align-center relative"
       >
         <div
-          class="footer-left flex justify-center align-center max-width max-height relative"
+          class="footer-left flex justify-center align-center max-width max-height relative overflow-hidden"
         >
           <div
             class="opacity-container absolute max-width max-height z-index-0"
@@ -258,9 +260,9 @@
             according a description in natural language.
           </p>
           <p
-            class="subtitles text-shadow relative text-justify padding-text hidden p-m"
+            class="subtitles text-shadow relative text-justify padding-text padding-text-z hidden p-m"
           >
-            All images and backgrounds have been generated by
+            All images have been generated by
             <a class="white-text bold" href="https://openai.com/dall-e-2/"
               >DALLE-2</a
             >.

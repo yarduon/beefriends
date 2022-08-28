@@ -167,6 +167,16 @@
 }
 
 @media screen and (max-width: 330px) {
+  .height-z,
+  #about-us {
+    height: auto;
+  }
+
+  .container-quote,
+  .footer-left {
+    padding: 10%;
+  }
+
   #about-us article {
     display: flex;
     flex-direction: column;
@@ -174,16 +184,12 @@
     align-items: center;
   }
 
-  section.big-section p {
-    margin: 0;
-  }
-
   #about-us h2 {
     width: 80%;
   }
 
-  .footer-right {
-    display: none;
+  section.container-quote div.opacity-container {
+    height: 100%;
   }
 
   .signup {
@@ -194,39 +200,14 @@
     padding: 1.4rem;
   }
 
-  section.container-quote div.opacity-container {
-    height: 100%;
-  }
-
-  .footer-left {
-    height: auto;
-  }
-
-  .container-quote,
-  .footer-left {
-    padding: 10%;
-  }
-
-  #about-us,
-  .container-quote,
-  .sign,
-  .signup,
-  .footer {
-    height: auto;
+  .footer-right {
+    display: none;
   }
 }
 
 @media screen and (max-width: 250px) {
   .hidden-z {
     display: none;
-  }
-
-  .big-section {
-    padding: 4rem 0 0 0;
-  }
-
-  .item-gallery {
-    width: 100%;
   }
 
   .padding-text-z {
@@ -237,11 +218,15 @@
     justify-content: center;
   }
 
-  section.signup article {
-    gap: 0;
-  }
-
   .logo {
     margin: 0;
+  }
+
+  .big-section {
+    padding: 4rem 0 0 0;
+  }
+
+  .item-gallery {
+    width: 100%;
   }
 }

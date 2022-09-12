@@ -155,7 +155,7 @@ button:hover {
   padding-top: 5rem;
   height: 36rem;
   gap: 2.25rem;
-  background: url("./../img/backgrounds/hive.webp") no-repeat center/cover;
+  background: url("./../img/backgrounds/hive.png") no-repeat center/cover;
 }
 
 section.big-section article:first-child {
@@ -198,7 +198,7 @@ h3 {
 }
 
 .container-quote {
-  background: url("./../img/backgrounds/rainbow.webp") no-repeat 0 0 / cover;
+  background: url("./../img/backgrounds/rainbow.png") no-repeat 0 0 / cover;
   height: 18rem;
 }
 
@@ -226,7 +226,7 @@ h3 {
 
 .footer {
   height: 10rem;
-  background: url("./../img/backgrounds/jungle.webp") no-repeat 0 0 / cover;
+  background: url("./../img/backgrounds/jungle.png") no-repeat 0 0 / cover;
 }
 
 .footer-right {

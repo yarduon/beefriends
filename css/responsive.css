@@ -36,12 +36,15 @@
 
   section.signup article {
     flex-direction: column;
-    gap: 1.9rem;
+    padding: 2rem 2rem 2rem 2rem;
+  }
+
+  section.signup .subtitles {
+    padding-bottom: 2rem;
   }
 
   .sign {
     width: 80%;
-    padding: 2.5rem;
   }
 
   article.sign h4,

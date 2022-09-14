@@ -145,6 +145,10 @@
     background: white;
   }
 
+  .gallery-container {
+    padding: 0.5rem 0 0.5rem 0;
+  }
+
   #about-us {
     height: 31.5rem;
   }

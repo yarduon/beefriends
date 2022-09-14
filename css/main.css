@@ -13,10 +13,6 @@ h2 {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
-.opacity-about {
-  height: 31rem;
-}
-
 .dark-purple-background {
   background-color: #572345;
 }
@@ -149,8 +145,7 @@ button:hover {
 }
 
 .big-section {
-  padding-top: 5rem;
-  height: 36rem;
+  height: 37rem;
   background: url("./../img/backgrounds/hive.png") no-repeat center/cover;
 }
 
@@ -158,8 +153,12 @@ section.big-section article:first-child {
   width: 28.5rem;
 }
 
+section.big-section article {
+  margin-top: 6.9rem;
+}
+
 section.big-section img {
-  margin-left: 2.2rem;
+  margin-left: 2.5rem;
 }
 
 section.big-section p {
@@ -182,8 +181,8 @@ h3 {
   padding: 0.63rem 0.63rem 0.63rem 0.63rem;
 }
 
-.gallery {
-  padding: 0 0 1.88rem 0;
+.gallery-container{
+  padding: 3rem 0 3rem 0;
 }
 
 .title-gallery {
@@ -193,7 +192,7 @@ h3 {
 
 .item-gallery {
   width: 16rem;
-  margin: 2rem 2.2rem 0 2.2rem;
+  margin: 0 2.2rem 0 2.2rem;
 }
 
 .container-quote {

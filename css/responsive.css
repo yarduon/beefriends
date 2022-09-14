@@ -4,12 +4,16 @@
     flex-direction: column-reverse;
   }
 
-  #about-us {
-    height: 48rem;
+  section.big-section img {
+    margin: 3.5rem 0 0 0;
   }
 
-  #about-us .opacity-container {
-    height: 43rem;
+  section.big-section article {
+    margin: 2rem 0 0 0;
+  }
+
+  #about-us {
+    height: 52rem;
   }
 
   .item-gallery {
@@ -137,6 +141,7 @@
   }
 
   .big-section {
+    padding-top: 4rem;
     background: white;
   }
 
@@ -223,7 +228,7 @@
   }
 
   .big-section {
-    padding-top: 7rem;
+    padding-bottom: 1rem;
   }
 
   .item-gallery {

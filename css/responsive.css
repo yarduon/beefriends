@@ -166,6 +166,29 @@
   }
 }
 
+@media screen and (max-width: 440px) {
+  .big-section,
+  .item-gallery {
+    gap: 0;
+  }
+
+  .big-section {
+    padding-top: 7.8rem;
+  }
+
+  .title-gallery {
+    margin-bottom: 0.7rem;
+  }
+
+  .subtitles {
+    margin-top: 0.7rem;
+  }
+
+  .section.signup article {
+    gap: 0;
+  }
+}
+
 @media screen and (max-width: 330px) {
   .height-z,
   #about-us {

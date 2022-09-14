@@ -168,7 +168,8 @@
 
 @media screen and (max-width: 440px) {
   .big-section,
-  .item-gallery {
+  .item-gallery,
+  .section.signup article {
     gap: 0;
   }
 
@@ -182,10 +183,7 @@
 
   .subtitles {
     margin-top: 0.7rem;
-  }
-
-  .section.signup article {
-    gap: 0;
+    padding-bottom: 0.4rem;
   }
 }
 
@@ -246,7 +244,7 @@
   }
 
   .big-section {
-    padding: 4rem 0 0 0;
+    padding-top: 7rem;
   }
 
   .item-gallery {

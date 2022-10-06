@@ -14,7 +14,7 @@ There are two ways to see my work:
     <li>
         <em>I want to see it right now:</em>
         <ol>
-            <li>Just click on this link: <a href="https://j-alarcon.github.io/beefriends/">Beefriends</a>.</li>
+            <li>Just click on this link: <a href="https://yarduon.github.io/beefriends/">Beefriends</a>.</li>
             <li>Or you can find the link in the environments category on your right by clicking view deployment inside this one <strong>(You need a Github's account)</strong>.</li>
         </ol>
     </li>

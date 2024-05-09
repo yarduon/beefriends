@@ -1,3 +1,4 @@
+<!-- https://yarduon.com -->
 <strong>This landing page has been created using only HTML and CSS</strong>, in order to practice both technologies. All the images <em>(except logo)</em> used are created by <a href="https://openai.com/dall-e-2/">DALL-E 2</a>.
 
 Beefriends is a simple website to help bees to find other bees to build a wonderful hive. 

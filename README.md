@@ -9,6 +9,7 @@ Anyway, we should be careful... We don't want them to bee-ing ruling the world..
 
 How awesome are you to bee part? Bzzz...
 
+</br>
 <strong>Instructions:</strong> Maybe you are on a lazy day, or you are lost in this weird website because you don't know how to use it, don't worry, I understand.
 There are two ways to see my work:
 <ul>
@@ -32,4 +33,6 @@ There are two ways to see my work:
         </ol>
     </li>
 </ul>
+
+</br>
 <strong>License:</strong> You are not allowed to modify, use my code or resources for your own projects without my consent, even if it's everything is public. If you do not follow the preceding, I might take legal actions against you.

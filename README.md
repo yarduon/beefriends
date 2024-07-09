@@ -13,6 +13,7 @@ How awesome are you to bee part? Bzzz...
 <strong>Instructions:</strong> Maybe you are on a lazy day, or you are lost in this weird website because you don't know how to use it, don't worry, I understand.
 There are two ways to see my work:
 <ul>
+    </br>
     <li>
         <em>I want to see it right now:</em>
         <ol>
@@ -22,7 +23,7 @@ There are two ways to see my work:
     </li>
     </br>
     <li>
-        <em>I would like to have it on my machine:</em>
+        <em>I would like to have it on my device:</em>
         <ol>
             <li>Do you see the green button with the word code on top?</li>
             <li>If the answer is affirmative: Click it. If not, keep looking.</li>

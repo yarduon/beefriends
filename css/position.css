@@ -1,0 +1,68 @@
+/* https://yarduon.com */
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.self-justify-end {
+  justify-self: flex-end;
+}
+
+.self-flex-end {
+  align-self: flex-end;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.logo-container {
+  right: 0;
+}
+
+.header {
+  z-index: 2;
+}
+
+.burger-opacity {
+  z-index: 1;
+}
+
+.z-index-0 {
+  z-index: 0;
+}

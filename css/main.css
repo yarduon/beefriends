@@ -1,0 +1,241 @@
+/* https://yarduon.com */
+section.big-section p,
+h2 {
+  width: 37.5rem;
+}
+
+.quote,
+.sign {
+  width: 62.5rem;
+}
+
+.opacity-container {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.dark-purple-background {
+  background-color: #572345;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.black-background {
+  background-color: rgb(27, 27, 27);
+}
+
+.yellow-background {
+  background-color: #ffcf00;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 2px black;
+}
+
+.text-height {
+  line-height: 2rem;
+}
+
+.padding-text {
+  padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.subtitles {
+  margin-top: 0.4rem;
+  font-size: 1rem;
+}
+
+.sriracha {
+  font-family: "sriracha";
+}
+
+.white-text {
+  color: white;
+}
+
+.black-text {
+  color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.border-purple {
+  border: 8px solid #572345;
+}
+
+.border-curves {
+  border-top-left-radius: 3.75rem;
+  border-bottom-right-radius: 3.75rem;
+}
+
+.round-corners {
+  border-radius: 0.44rem;
+}
+
+.fake-border {
+  padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+}
+
+.max-width {
+  width: 100%;
+}
+
+.max-height {
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.touch {
+  cursor: pointer;
+}
+
+.laila {
+  font-family: "Laila";
+}
+
+.header {
+  height: 6.5rem;
+  border-bottom: 0.63rem solid #572345;
+}
+
+.header h1 {
+  margin: 0 0 0 0.6rem;
+  font-size: 1.8rem;
+}
+
+ul {
+  padding: 0.31rem 0.13rem 0.31rem 0.13rem;
+  width: 21.9rem;
+  border-radius: 1rem;
+  font-size: 0.95rem;
+}
+
+ul a:hover {
+  color: rgb(133, 40, 133);
+}
+
+button:hover {
+  background-color: rgb(133, 40, 133);
+}
+
+.big-section {
+  height: 37rem;
+  background: url("./../img/backgrounds/hive.png") no-repeat center/cover;
+}
+
+section.big-section article:first-child {
+  width: 28.5rem;
+}
+
+section.big-section article {
+  margin-top: 6.9rem;
+}
+
+section.big-section img {
+  margin-left: 2.5rem;
+}
+
+section.big-section p {
+  margin-top: 0.44rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+section.big-section button {
+  border: none;
+  padding: 0.31rem 1.57rem 0.5rem 1.57rem;
+  margin-top: 0.94rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+  width: 50rem;
+  padding: 0.63rem 0.63rem 0.63rem 0.63rem;
+}
+
+.gallery-container {
+  padding: 3rem 0 3rem 0;
+}
+
+.title-gallery {
+  margin-bottom: 0.7rem;
+  padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+}
+
+.item-gallery {
+  width: 16rem;
+  margin: 0 2.2rem 0 2.2rem;
+}
+
+.container-quote {
+  background: url("./../img/backgrounds/rainbow.png") no-repeat 0 0 / cover;
+  height: 18rem;
+}
+
+.quote p:not(p.author) {
+  font-size: 1.3rem;
+  margin-bottom: 0.94rem;
+}
+
+.signup {
+  height: 18.75rem;
+}
+
+.signup h4 {
+  font-size: 1.1rem;
+}
+
+.sign {
+  padding: 2.5rem 6.25rem 2.5rem 6.25rem;
+}
+
+.sign button {
+  border: 2px solid white;
+  padding: 0.31rem 2.5rem 0.44rem 2.5rem;
+}
+
+.footer {
+  height: 10rem;
+  background: url("./../img/backgrounds/jungle.png") no-repeat 0 0 / cover;
+}
+
+.footer-right {
+  width: 7rem;
+  border-left: 0.5rem solid #f0a85dff;
+}
+
+.footer-left a:hover {
+  color: rgb(133, 40, 133);
+}
+
+.footer-right:hover {
+  background-color: rgb(10, 10, 10);
+}

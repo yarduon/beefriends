@@ -1,0 +1,254 @@
+/* https://yarduon.com */
+@media screen and (max-width: 1150px) {
+  section.big-section {
+    flex-direction: column-reverse;
+  }
+
+  section.big-section img {
+    margin: 3.5rem 0 0 0;
+  }
+
+  section.big-section article {
+    margin: 2rem 0 0 0;
+  }
+
+  #about-us {
+    height: 52rem;
+  }
+
+  .item-gallery {
+    margin: 1.25rem 1.9rem 1.25rem 1.9rem;
+  }
+
+  .container-quote,
+  section.container-quote div.opacity-container {
+    height: 18.75rem;
+  }
+
+  .quote {
+    width: 90%;
+    text-align: justify;
+  }
+
+  .quote p:not(p.author) {
+    font-size: 1.1rem;
+  }
+
+  section.signup article {
+    flex-direction: column;
+    padding: 2rem 2rem 2rem 2rem;
+  }
+
+  section.signup .subtitles {
+    padding-bottom: 2rem;
+  }
+
+  .sign {
+    width: 80%;
+  }
+
+  article.sign h4,
+  article.sign p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .nav,
+  .footer {
+    height: 6rem;
+  }
+
+  .nav ul,
+  .nav li,
+  .nav a {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex-r,
+  #burger:checked + header nav {
+    display: flex;
+  }
+
+  #burger:checked ~ .burger-opacity,
+  .p-m {
+    display: block;
+  }
+
+  .nav li:hover,
+  h2 {
+    background-color: #572345;
+  }
+
+  .hidden-r {
+    display: none;
+  }
+
+  .max-width-r {
+    width: 100%;
+  }
+
+  .max-height-r {
+    height: 100%;
+  }
+
+  .border-purple {
+    border: none;
+  }
+
+  .header {
+    justify-content: space-between;
+  }
+
+  .header h1 {
+    margin: 1rem 0 0.19rem 0.4rem;
+    font-size: 1.3rem;
+  }
+
+  .logo {
+    margin-left: 1rem;
+  }
+
+  .burger {
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-right: 1rem;
+  }
+
+  .burger-opacity {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  #burger:checked + header .burger img {
+    transform: rotate(270deg);
+  }
+
+  #burger:checked  ~ .main{
+    padding-top: 2.5rem;
+  }
+
+  .nav {
+    position: absolute;
+    top: 5.1rem;
+  }
+
+  .nav ul {
+    padding: 0;
+  }
+
+  .nav li {
+    height: 3.3rem;
+    background-color: white;
+    border-bottom: 0.3rem solid #572345;
+  }
+
+  .nav li:hover a {
+    color: white;
+  }
+
+  .big-section {
+    padding-top: 4rem;
+    background: white;
+  }
+
+  .gallery-container {
+    padding: 0.5rem 0 0.5rem 0;
+  }
+
+  #about-us {
+    height: 31.5rem;
+  }
+
+  #sign {
+    margin-bottom: 1.7rem;
+  }
+
+  h2 {
+    border-radius: 0.44rem;
+    font-size: 1.4rem;
+    padding: 1rem;
+    width: 20rem;
+  }
+
+  section.big-section p {
+    width: 80vw;
+    color: black;
+    text-shadow: none;
+  }
+
+  .footer {
+    height: 7rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .signup .subtitles {
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .height-z,
+  #about-us {
+    height: auto;
+  }
+
+  .container-quote,
+  .footer-left {
+    padding: 10%;
+  }
+
+  #about-us article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about-us h2 {
+    width: 80%;
+  }
+
+  section.container-quote div.opacity-container {
+    height: 100%;
+  }
+
+  .signup {
+    margin: 7% 0 7% 0;
+  }
+
+  .sign {
+    padding: 1.4rem;
+  }
+
+  .footer-right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .hidden-z {
+    display: none;
+  }
+
+  .padding-text-z {
+    padding: 12%;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .big-section {
+    padding-bottom: 1rem;
+  }
+
+  .item-gallery {
+    width: 100%;
+  }
+}

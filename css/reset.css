@@ -1,0 +1,11 @@
+/* https://yarduon.com */
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+  background: none;
+  border: none;
+}
